@@ -1,13 +1,14 @@
 
 from random import shuffle
 
+# Creating individual Card objects with attrs and methods
 class Card(object):
 	def __init__(self, suit, value, image=None):
 		self.suit = suit
 		self.value = value
 		self.image = image
 
-
+# Creating Deck of Cards along with its attrs and methods
 class Deck(object):
 	def __init__(self, suits, values):
 		self.suits = suits
